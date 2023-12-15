@@ -1,0 +1,203 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.customTextColor {
+    color: #75797E;}
+  
+  .us {
+      color: #1A1A1A;
+      font-family: Inter;
+      font-size:  20px ;
+      font-weight: 500;
+      line-height: 34px ;
+      text-align:  left ;
+      width:  218px ;
+      height:  34px ;
+      top:  219px ;
+      left:  848px ; 
+  }  
+  
+  .ux {
+    color: #D2D2D2;
+  }
+  .uv {
+    font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  }
+  
+  .ub {
+    color: #3A8EF6
+  }
+  
+  .uu {
+    color: #090909;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 241.56px;
+    height: 41.86px;
+    top: 212.82px;
+    left: 461.03px;
+  }
+  
+  .uh {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .uk {
+     
+      width: 1052px;
+      height: 60px; 
+      border: 1px solid #AEAEAE;
+       
+  }
+  .uo {
+      width: 105px;
+      height: 60px;  
+      border-radius: 50px;
+  }
+  .kl {
+    color: #090909;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40.8px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 241.56px;
+    height: 41.86px;
+    top: 212.82px;
+    left: 461.03px;
+  }
+  
+  .ml {
+    color: #000000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 295px;
+    height: 26px;
+    top: 775px;
+    left: 439px;
+  }
+  .p-categ{
+    color: #516AF8;
+    font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 62px;
+  height: 18.38px;
+  top: 203.08px;
+  left: 1500px;
+  
+  }
+  .line{
+    width: 1161px;
+  top: 1159px;
+  left: 377px;
+  transform: rotate(-0deg);
+  color: rgba(0, 0, 0, 0.19);
+  }
+
+  /* components/Navbar.module.css */
+/* components/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+}
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+/* components/Navbar.module.css */
+.navbar {
+  display: grid;
+  place-items: center; /* Centre horizontalement et verticalement */
+  background-color: rgb(208, 208, 224);
+  color: rgb(43, 36, 36);
+  padding: 1rem;
+}
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+
+.logo  {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* styles.css */
+.film-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* styles.css */
+/* Styles pour la barre de navigation */
+/* ... */
+
+.film-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px; /* Espacement entre la barre de navigation et les cartes de films */
+}
+
+/* Styles pour les cartes de films */
+.film-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.film-image {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.film-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* ... Autres styles */

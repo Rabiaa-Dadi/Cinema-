@@ -1,0 +1,30 @@
+{
+  "name": "films",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.2.9",
+    "@nextui-org/system": "^2.0.15",
+    "@nextui-org/theme": "^2.1.17",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "framer-motion": "^10.16.16",
+    "next": "14.0.4",
+    "postcss": "^8.4.32",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.45",
+    "typescript": "5.3.3"
+  }
+}
