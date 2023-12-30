@@ -9,10 +9,10 @@ import Link from "next/link";
       <Link href="/">
           <p>Home</p>
         </Link>
-        <Link href="/">
+        <Link href="/About">
           <p>About</p>
         </Link>
-        <Link href="/">
+        <Link href="/Contact">
           <p>Contact</p>
         </Link>
         {/* Ajoutez d'autres liens ici */}

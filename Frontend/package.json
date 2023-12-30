@@ -12,19 +12,19 @@
     "@nextui-org/react": "^2.2.9",
     "@nextui-org/system": "^2.0.15",
     "@nextui-org/theme": "^2.1.17",
-    "autoprefixer": "^10.4.16",
     "axios": "^1.6.2",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
-    "postcss": "^8.4.32",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind": "^4.0.0",
-    "tailwindcss": "^3.3.6"
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "20.10.4",
     "@types/react": "18.2.45",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
     "typescript": "5.3.3"
   }
 }

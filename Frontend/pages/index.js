@@ -2,17 +2,20 @@ import Head from 'next/head'
 import Image from 'next/image'
 import axios from 'axios';
 import FilmComponent from '@/components/Liste/FilmComponent'
+import SearchComponent from '@/components/buttons/SearchComponent'
+
 
 
 export default function Home({ films }) {
   return (
-    <div>
+<div>
+    <SearchComponent/>
       <div className="film-container px-7 py-5">
         {films.map((film) => (
           <FilmComponent key={film.id} film={film} />
         ))}
       </div>
-    </div>
+</div>
   );
 }
 export async function getStaticProps() {
