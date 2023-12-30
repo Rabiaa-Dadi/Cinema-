@@ -142,16 +142,6 @@
   padding: 1rem;
 }
 
-.navlinks {
-  display: flex;
-  gap: 20px;
-}
-
-.navlink {
-  color: white;
-  text-decoration: none;
-}
-
 
 .logo  {
   font-size: 1.5rem;
@@ -193,6 +183,8 @@
   width: 100%;
   border-radius: 6px;
   margin-bottom: 10px;
+  /*filter:drop-shadow(16px 7px 8px #D21369) ;*/
+  box-shadow: 20px 7px 5px #8b5c71;
 }
 
 .film-title {
