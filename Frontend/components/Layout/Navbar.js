@@ -15,7 +15,12 @@ import Link from "next/link";
         <Link href="/Contact">
           <p>Contact</p>
         </Link>
-        {/* Ajoutez d'autres liens ici */}
+        <Link href="/Conexion">
+          <p>Conexion</p>
+        </Link>
+        <Link href="/Conexion/S'inscrire">
+          <p>S'inscrire</p>
+        </Link>
       </div>
     </div>
   );
